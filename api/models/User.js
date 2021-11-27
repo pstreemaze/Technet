@@ -48,19 +48,34 @@ const UserSchema = new mongoose.Schema(
       type: String,
       max: 50,
     },
+    institute: {
+      type: String,
+      max: 50,
+    },
     from: {
       type: String,
       max: 50,
     },
-    Role: {
+    role: {
       type: Number,
       enum: [1, 2, 3],
     },
-    Achievements: {
+    achievements: {
       type: String,
       max: 500,
     },
-    Research: {
+    communities: {
+      type: String,
+      max: 500,
+    },
+    yearOfGraduating: {
+      type: Number
+    },
+    company: {
+      type: String,
+      max: 500,
+    },
+    research: {
       type: String,
       max: 500,
     },

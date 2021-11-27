@@ -20,9 +20,9 @@ export default function Sidebar() {
       <div className="sidebarWrapper">
         <ul className="sidebarList">
           <li className="sidebarListItem">
-          <a href='https://www.quora.com' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
+          <a href='https://bit.ly/3D5EaBW' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
             <RssFeed htmlColor="#682adb" className="sidebarIcon" />
-            <span className="sidebarListItemText">Feed</span>
+            <span className="sidebarListItemText">Tech News</span>
             </a>
           </li>
           <li className="sidebarListItem">
@@ -32,21 +32,21 @@ export default function Sidebar() {
             </a>
           </li>
           <li className="sidebarListItem">
-          <a href='https://www.quora.com' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
+          <a href='https://www.youtube.com' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
             <PlayCircleFilledOutlined htmlColor="#682adb" className="sidebarIcon" />
             <span className="sidebarListItemText">Videos</span>
             </a>
           </li>
           <li className="sidebarListItem">
-          <a href='https://www.quora.com' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
+          <a href='https://www.microsoft.com/en-in/microsoft-teams/log-in' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
             <Group htmlColor="#682adb" className="sidebarIcon" />
-            <span className="sidebarListItemText">Groups</span>
+            <span className="sidebarListItemText">MSFT Teams</span>
             </a>
           </li>
           <li className="sidebarListItem">
-          <a href='https://www.quora.com' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
+          <a href='https://www.figma.com' target="_blank" rel="noopener noreferrer" style={{color:'black',textDecoration: 'none',}}>
             <Bookmark htmlColor="#682adb" className="sidebarIcon" />
-            <span className="sidebarListItemText">Bookmarks</span>
+            <span className="sidebarListItemText">Figma</span>
             </a>
           </li>
           <li className="sidebarListItem"> 
@@ -76,6 +76,7 @@ export default function Sidebar() {
         </ul>
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
+        <span classname="titleright"><b> Suggested Friends</b> </span>
         <ul className="sidebarFriendList">
           {Users.map((u) => (
             <CloseFriend key={u.id} user={u} />

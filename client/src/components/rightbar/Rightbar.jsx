@@ -79,21 +79,37 @@ export default function Rightbar({ user }) {
         <div className="rightbarInfo">
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Institute:</span>
-            <span className="rightbarInfoValue">{user.city}</span>
+            <span className="rightbarInfoValue">{user.institute}</span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Graduation Year:</span>
+            <span className="rightbarInfoValue">{user.yearOfGraduating}</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Achievements:</span>
-            <span className="rightbarInfoValue">{user.from}</span>
+            <span className="rightbarInfoValue">{user.achievements}</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Role:</span>
             <span className="rightbarInfoValue">
-              {user.relationship === 1
+              {user.role === 1
                 ? "Student"
-                : user.relationship === 1
+                : user.role === 2
                 ? "Professor"
                 : "-"}
             </span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Research:</span>
+            <span className="rightbarInfoValue">{user.research}</span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Associated Company:</span>
+            <span className="rightbarInfoValue">{user.company}</span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Communities:</span>
+            <span className="rightbarInfoValue">{user.communities}</span>
           </div>
         </div>
         <h4 className="rightbarTitle">User friends</h4>

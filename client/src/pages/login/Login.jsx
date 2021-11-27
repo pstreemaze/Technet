@@ -23,7 +23,7 @@ export default function Login() {
         <div className="loginLeft">
           <h3 className="loginLogo">Technet</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Technet.
+            This platform will be your personal portfolio of ideas and research work you have done!
           </span>
         </div>
         <div className="loginRight">

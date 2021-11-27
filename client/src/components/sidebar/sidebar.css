@@ -26,6 +26,10 @@
   list-style: none;
 }
 
+.titleright {
+  margin-bottom: 20px;
+}
+
 .sidebarListItem {
   display: flex;
   align-items: center;
@@ -53,5 +57,6 @@
   margin: 0;
   list-style: none;
 }
+
 
 
