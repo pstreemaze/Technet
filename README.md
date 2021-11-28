@@ -74,7 +74,13 @@ yarn start
     email: shivam2001@gmail.com
     password: qwerty@123
 
+## Techstack
+- Nodejs
+- Reactjs
+- Express
+- MongoDB
 
+Libraries - axios, bcrypt, mongoose and etc.
 ## Future Scope
 - Real time collaboration for Plogs
 - Technet Docs, for drafting research papers
