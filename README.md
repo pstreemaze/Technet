@@ -64,13 +64,16 @@ yarn start
 ```
 
 5. Click: http://localhost:3000 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
  login details: 
- User 1:
-   -username: demo 
+ - User 1:
+   - username: demo 
     email: demo@gmail.com
     password: demo@123
- User 2:
-   -username: shivam
+ - User 2:
+   - username: shivam
     email: shivam2001@gmail.com
     password: qwerty@123
 
