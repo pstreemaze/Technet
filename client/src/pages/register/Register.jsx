@@ -8,6 +8,8 @@ export default function Register() {
   const email = useRef();
   const password = useRef();
   const passwordAgain = useRef();
+  const institute =  useRef();
+  const achievements = useRef();
   const history = useHistory();
 
   const handleClick = async (e) => {
@@ -19,6 +21,8 @@ export default function Register() {
         username: username.current.value,
         email: email.current.value,
         password: password.current.value,
+        institute: institute.current.value,
+        achievements: achievements.current.value,
       };
       try {
         await axios.post("/auth/register", user);
@@ -67,6 +71,20 @@ export default function Register() {
               ref={passwordAgain}
               className="loginInput"
               type="password"
+            />
+            <input
+              placeholder="Institute Name"
+              required
+              ref={passwordAgain}
+              className="loginInput"
+              type="institute"
+            />
+            <input
+              placeholder="Achievements"
+              required
+              ref={passwordAgain}
+              className="loginInput"
+              type="achievements"
             />
             <button className="loginButton" type="submit">
               Sign Up
